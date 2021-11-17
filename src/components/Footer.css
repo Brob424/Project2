@@ -1,0 +1,32 @@
+.btnDisclaimer {
+  text-decoration: none;
+  color: white;
+}
+
+.btnDisclaimer:hover {
+  color: rgb(49, 168, 198);
+}
+
+.footer {
+  height: 40px;
+  background-image: linear-gradient(to right, rgb(190, 190, 190), gray);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 17px;
+}
+.footer .fb {
+  color: #4267b2;
+}
+
+.footer .github {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 35px;
+    font-size: 23px;
+  }
+}

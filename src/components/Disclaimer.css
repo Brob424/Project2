@@ -1,0 +1,11 @@
+.disclaimerPage {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .disclaimerPage {
+    font-size: 25px;
+  }
+}

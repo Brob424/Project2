@@ -1,0 +1,21 @@
+.btnStart,
+.btnCta {
+  text-align: center;
+  list-style: none;
+}
+
+.btnCta button {
+  color: black;
+  font-size: 25px;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 13px 25px;
+  border-radius: 30px;
+  border: 0;
+}
+
+.btnCta button:hover {
+  background-color: rgb(49, 168, 198);
+  color: white;
+  border: 2px solid white;
+}

@@ -1,0 +1,17 @@
+.hamburger i {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.SideBar {
+  align-items: center;
+}
+
+.menu-links .nav-links-mobile {
+  color: white;
+  text-decoration: none;
+  flex-direction: column wrap;
+}
