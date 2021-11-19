@@ -43,6 +43,7 @@ const SearchBar = () => {
        {info.pharm_class_epc ? <h2 className='title'><h3 className="tag">Drug Class:</h3>{info.pharm_class_epc}</h2> : ' ' }
        {info.pharm_class_pe ? <h2 className='title'><h3 className="tag">Use Case:</h3>{info.pharm_class_pe}</h2> : ' ' }
        {info.route ? <h2 className='title'><h3 className="tag">Route Type:</h3>{info.route}</h2> : ' ' }
+       
      
         </div>
        </>
