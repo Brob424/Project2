@@ -4,7 +4,6 @@
 }
 
 .medDexTitle h1 {
-  height: 100vh;
   text-align: center;
   padding: 5px;
   color: white;
@@ -29,6 +28,29 @@
 
 .searchBox {
   text-align: center;
+}
+
+.list-items {
+  color: white;
+  text-align: center;
+  margin: 40px auto 0;
+}
+
+.list-items .title {
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-play-state: running;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 768px) {

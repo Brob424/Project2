@@ -9,10 +9,10 @@ function MedDatabase () {
         <div>
             <div className="medDexTitle">
                 <h1>Medication  <span>Database</span></h1>
-                <br /> 
+                 <SearchBar /> 
             </div>
             <div>
-               <SearchBar /> 
+               
             </div>
         </div>
     )
